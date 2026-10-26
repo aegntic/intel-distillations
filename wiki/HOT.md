@@ -8,11 +8,13 @@ The corpus is now an ongoing bank: 33 videos from the 2026-09-01 wiki plus 21 vi
 
 ## Top 5 actionable items, ranked by leverage x cheapness
 
-1. **Run the fleet security-and-spend pass.** PHP2Shell inventory and patch (hours), scope every agent-facing credential to read-only or expiring keys (days), then capped virtual cards with charge webhooks on the cron fleet (days). Uncapped downside first: prompt-injection is when-not-if and prompt-level limits are not enforcement [f15 10:22; f12 3:14; f35 9:10]. Log ids mv-001, mv-003, mv-008.
-2. **Deposit-test the KB-agent offer beside SOP-to-skills.** Flagship stays (10-25k plus 1-2k/month [GkHwnQdoDpM 35:43]); add the KB-agent one-pager plus a 15-minute mock-data demo and book 5 calls from the existing network. The 20-40k anchor is [unverified]; deposits decide [f24 15:26]. Log id mv-004.
-3. **Run the next forge release through the software-factory loop with fan-out evals.** Grill intent, split issues, plan-implement-validate autonomously, one batch review in staging [f02 11:57, 10:24]; one brief fanned across three models, cherry-picked [f64 15:34]. The harness becomes the client demo. Log ids mv-007, mv-006.
-4. **Adopt batch check-ins and backfill three playbook repos.** One daily review slot per agent stream, no mid-day peeking for a week [f02 13:10]; SOP-to-skills, monitoring, and distillation become forkable repos with evals [f05 3:08, 42:45]. Log ids mv-010, mv-009.
-5. **Carried from 09-02, still open:** council-of-skills personas [iTY8Q449YNQ 2:50], the three-creator wave [source-roster], and the one-documentary-domain proof [NAB9PyN2-3E 57:21]. Nothing has acted on them yet; they stay queued, not deleted.
+1. **Run the next forge release through the software-factory loop with fan-out evals.** Grill intent, split issues, plan-implement-validate autonomously, one batch review in staging [f02 11:57, 10:24]; one brief fanned across three models, cherry-picked [f64 15:34]. The harness becomes the client demo. Log ids mv-007, mv-006.
+2. **Adopt batch check-ins and backfill three playbook repos.** One daily review slot per agent stream, no mid-day peeking for a week [f02 13:10]; SOP-to-skills, monitoring, and distillation become forkable repos with evals [f05 3:08, 42:45]. Log ids mv-010, mv-009.
+3. **Deposit-test the KB-agent offer beside SOP-to-skills.** Flagship stays (10-25k plus 1-2k/month [GkHwnQdoDpM 35:43]); add the KB-agent one-pager plus a 15-minute mock-data demo and book 5 calls from the existing network. The 20-40k anchor is [unverified]; deposits decide [f24 15:26]. Log id mv-004.
+4. **Run the classifier-gating A/B on one cron loop.** Jev-style routing with a 2-week cost comparison before any rollout [f28 12:34]. Log id mv-002.
+5. **Security posture after the 2026-10-27 review: already adequate for the video pipeline.** The harvest loop is public-data-in/markdown-out with no PII by rule; the box runs no PHP and no web servers, so mv-001 closed not-applicable per its own falsifier; spend rails (mv-008) wait for the first spend-holding agent. Remaining hygiene: confirm distiller subagents hold no push rights and the verify gate stays blocking on the sweep's auto-commit [mv-003, re-scoped].
+
+**Carried from 09-02, still open:** council-of-skills personas [iTY8Q449YNQ 2:50], the three-creator wave [source-roster], and the one-documentary-domain proof [NAB9PyN2-3E 57:21]. Nothing has acted on them yet; they stay queued, not deleted.
 
 ## What changed since last distillation (2026-09-02 bank refresh)
 

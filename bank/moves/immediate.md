@@ -5,28 +5,31 @@ points at its move-log entry (bank/moves/move-log.jsonl) which carries the
 full mechanism, sources, falsifier, and status. Statuses move proposed ->
 acted | dead | superseded, never silently.
 
-## Ranked (2026-10-27)
+## Ranked (2026-10-27, re-scoped after pipeline threat review)
 
-1. **Security and spend pass on the fleet** [mv-001, mv-003, mv-008]. One
-   workstream, three moves: PHP2Shell inventory and patch (hours), scope
-   every agent-facing credential to read-only or expiring keys (days), and
-   issue capped virtual cards to the cron fleet with charge webhooks (days).
-   Uncapped downside first: AI phishing at expert efficacy for ~4 cents/email
-   makes prompt-injection when-not-if, and prompt-level limits are not
-   guardrails [f15 10:22; f12 3:14; f35 9:10, all 2026-10-23].
-2. **Fan-out evals on the next forge deliverable** [mv-006]. One brief, three
+The harvest loop (public YouTube data in, citation-verified markdown out,
+no PII by rule) needs no added security on its own. Security moves below are
+scoped to credential-holding processes, not video collection.
+
+1. **Fan-out evals on the next forge deliverable** [mv-006]. One brief, three
    models, cherry-pick; margin protection at the same prompt cost (hours)
    [f64 15:34, 2026-10-23].
-3. **Batch check-in cadence** [mv-010]. One fixed daily review slot per agent
+2. **Batch check-in cadence** [mv-010]. One fixed daily review slot per agent
    stream; recovered attention goes into harness autonomy, not more sessions
    (hours to adopt) [f02 13:10, 9:20, 2026-10-27].
-4. **Playbook repo backfill** [mv-009]. Top 3 studio workflows (SOP-to-skills,
+3. **Playbook repo backfill** [mv-009]. Top 3 studio workflows (SOP-to-skills,
    monitoring, distillation) become forkable repos with evals; client-editable
    IP that survives compaction (days) [f05 3:08, 42:45, 2026-10-27].
-5. **Classifier gating trial** [mv-002]. Jev-style routing on one cron loop
+4. **Classifier gating trial** [mv-002]. Jev-style routing on one cron loop
    with a 2-week cost A/B before any fleet rollout; creator-shown 18 cents per
    4,451 routings is [unverified] until our own numbers exist [f28 12:34,
    2026-10-23].
+5. **Credential hygiene, scoped to what exists** [mv-003]. The only
+   credential the pipeline box exposes to agents is the gh token (keyring);
+   one-time task: confirm distiller subagents need no push rights and the
+   sweep's verify gate stays blocking. mv-001 closed not-applicable (no PHP,
+   no web servers, falsifier fired); mv-008 spend rails deferred until a
+   spend-holding agent exists.
 
 ## Standing strategic theses
 
