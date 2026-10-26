@@ -39,3 +39,7 @@ The suggested first move: Nate Herk + AI Jason + zSecurity in the same week. All
 - Treat micro-creators (Sharbel, DevJesse, Hawksworth) as forge beta adopters; low cost, high topical density.
 - Pitch Cunningham with the 120-domain portfolio as the infrastructure half of his own 1,000-microsite playbook.
 - Keep Isenberg/Warner pitches tied to aedex and the agent-economy infrastructure story, not generic agent content.
+
+## 2026-10-23 update (bank ingest)
+
+New roster rows: IndyDevDan (152K subs, GitHub 4.7k followers, "betting the next 10 years" on agentic software; six repos in this corpus) (f11, f47); Josh Pigford (First Index, the one-person agency proof) [f17 13:12]; Claire Vo (How I AI, personal-agent benchmarks) (f05); Cole Medin (harness autonomy plus focus) (f12); Nimrod (fleet stack) (f35); RoboNuggets (ARMS 12-levels) (f28); Zack Kirk (KB-agent offer) (f24); Elisa (9 Grok Bot use cases) (f61). First Index doubles as market proof that the studio's wedge (skills as operated systems) sells at scale [f17 13:12].

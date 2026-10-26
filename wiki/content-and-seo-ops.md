@@ -36,3 +36,7 @@ Monetization must precede acquisition: 46,000 downloads with zero monetization c
 - Wire the SEO data MCP into every content agent so keyword claims are grounded, never hallucinated.
 - Stand up the growth repo from studio sales calls and community threads; it feeds posts, videos, and landing pages from real objections.
 - Ship small utility tools (calculators, generators) on easy keywords and let them sit; publish the best as remixable templates for referral income.
+
+## 2026-10-23 update (bank ingest)
+
+AEO gets a measurement loop: script real probe queries at ChatGPT/LLMs, log whether the client is mentioned, correct wrong facts so models repeat correct data [f17 22:48][f17 5:41]. Unit economics: DataForSEO runs ~30 clients at ~$100/week versus thousands for retail suites [f17 15:36]. New verdict to record: scaled Reddit manipulation is "mostly shady... short-term play that will burn you," equated to faking community [f17 6:06]. The Jev news-desk is also a working template for a studio signal curator: cron sweep, dedupe, rank, feedback flywheel [f13 16:53][f13 14:42].

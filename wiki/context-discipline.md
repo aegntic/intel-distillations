@@ -36,3 +36,11 @@ The distillation loop is the highest-leverage instance: compress raw transcripts
 - Schedule all cron jobs at 45-minute-plus spacing; audit current jobs for cache-hostile cadence.
 - Treat ~250k of a 1M window as the concrete danger-zone number in AGENTS.md Layer-3 context budgeting.
 - Keep this wiki as the only query surface over the harvest corpus; raw condensed files are for provenance checks, never for browsing.
+
+## 2026-10-23 update (bank ingest)
+
+New cost mechanics beyond cache spacing. A Jev-style classifier gated 4,451 routings for 18 cents [unverified], sending ~40% of traffic to a cheap model [f28 12:34]; scheduled routines were capped $10 to $4/week by re-prompting for waste [f28 18:10]; self-pings keep cache warm (~$437/month estimated [unverified]) [f28 29:14]. Memory direction: plain-text maps and card-catalog memory.md beat vector RAG, even at Anthropic scale [f28 24:44][f35 6:08].
+
+## 2026-10-27 update (bank ingest)
+
+The corpus adds a human-side law to token-side discipline: cognitive bandwidth does not parallelize, and parallel agent sessions are what force the switching [f02 1:42]. The named failure mode is guilt while waiting, which opens extra sessions and compounds the problem [f02 3:05]. The operating fix is batch check-ins, about once a day per stream, with recovered attention reinvested into harness autonomy [f02 13:10, 9:20]. Cole Medin predicts near-instant responses will collapse working style into one primary orchestrating session [f02 14:05]. His /goal verdict: a goal statement alone cannot encode how you personally babysit and validate work, so validation lives in the harness [f02 10:52].

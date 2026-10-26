@@ -14,6 +14,9 @@ Query-first knowledge base distilled from 33 YouTube videos plus creator researc
 - [validation-tactics](validation-tactics.md) - paid deposits, scraped demand, budgeted public experiments, roast councils.
 - [hermes-ecosystem-intel](hermes-ecosystem-intel.md) - Hermes features as demoed, cost positioning, second-brain pattern.
 - [voice-and-brand-laws](voice-and-brand-laws.md) - brand files, hook grammar, packaging consistency, AI-transparency calls.
+- [proactive-and-durable-agents](proactive-and-durable-agents.md) - durable agents plus triggers in sandboxes, checkpoint resume, deploys as gated one-shots, the useful-agents KPI.
+- [agent-security-baseline](agent-security-baseline.md) - the AI attack surface at commodity prices, platform-level credential scoping and card-level spend locks.
+- [focus-and-attention-economics](focus-and-attention-economics.md) - attention as the scarce input, batch check-in cadence, screen-time audit, the pressure law.
 
 ## Query recipes
 
@@ -27,6 +30,9 @@ Query-first knowledge base distilled from 33 YouTube videos plus creator researc
 - "What can Hermes actually do / how do we demo it?" -> [hermes-ecosystem-intel](hermes-ecosystem-intel.md).
 - "How do I make content that does not read as slop?" -> [voice-and-brand-laws](voice-and-brand-laws.md).
 - "What do I do RIGHT NOW?" -> [HOT](HOT.md), always.
+- "Where did my attention go / how many sessions should I run?" -> [focus-and-attention-economics](focus-and-attention-economics.md).
+- "What can an agent touch, spend, or delete?" -> [agent-security-baseline](agent-security-baseline.md).
+- "How do I make agents work while I am out of the loop?" -> [proactive-and-durable-agents](proactive-and-durable-agents.md).
 
 ## Source-pointer conventions
 

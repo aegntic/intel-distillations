@@ -34,3 +34,11 @@ Offer-level validation: run the four-leg filter (buyer, pain, flowing budget, ar
 - Scrape our own comment sections and community threads for demand before building any new forge feature; the highest-signal market research in the corpus was Apify over "I want one" comments.
 - Upgrade council-of-skills with Herk's missing personas: a buyer role-play and a forced "cheapest 48-hour test" output.
 - Run one public, budgeted, deadline-bound agent experiment and post every day of it; the documentation asset outlives the experiment.
+
+## 2026-10-23 update (bank ingest)
+
+Intake discipline upgrades. Score information hype/fact/signal before acting: a fact you cannot act on is not signal [f13 5:19]. Adopt Galloway's falsifiable-test habit for macro claims: state what would disprove the thesis (sustained 20% unemployment) before believing either the boom or the doom case [f42 10:08]. Launch-pattern proof: First Index started from one Friday tweet, price and delivery channel stated, no site, DM to start [f17 1:02]. Corroborate self-reported revenue ($570K ARR) before this bank ever cites it [f17 0:00].
+
+## 2026-10-27 update (bank ingest)
+
+The rough first version is a validation tactic, not just a build tactic: build the ugly working artifact to extract requirements a stakeholder could not articulate, then let them react to it [f03 7:42, 8:24]. It pairs with a scope control: with identical tools, one person starts 15 projects in a month and quits each when work gets awkward, the other stays on one customer problem; sustained focus is underweighted in AI conversations [f03 11:44, 9:39]. Anti-goal for the council checklist: AI can make distraction look productive, many prototypes and three plans by 5pm, none far enough to matter [f03 12:31].

@@ -33,3 +33,11 @@ Hosting parallelism for others changes the risk math. Robbie's abuse case: one u
 - End sub-agent sessions immediately after they report; never let them accumulate context [v12 21:47; v09 10:15].
 - Any hosted-agent offer ships with per-tenant token caps, a fallback cheaper model, and container isolation from day one; the 125-sub-agent user is the design case.
 - Combine with the handoff skill: parallel workers, one merged structured handoff back to the lead context.
+
+## 2026-10-23 update (bank ingest)
+
+The 10-23 harvest upgrades parallelism from isolated sessions to durable teams. The proactive pattern (durable agent + trigger + sandbox) adds out-of-loop work that survives restarts and resumes from checkpoints [f13 3:04][f02 30:21]. Grok Bot productizes it as role bots with separate memory and computer, shared to teammates live, running 24h routines after ~30 min tuning per flow [f64 18:52][f64 12:37][f64 41:43]. Counterweight: every extra session is a context switch; invest in autonomy before adding sessions [f12 9:20].
+
+## 2026-10-27 update (bank ingest)
+
+New tension, not a replacement. The 09-01 file prescribes fanning work out one sub-agent per deliverable [v09 10:15]; Cole Medin says the human should run one primary session and stop juggling [f02 13:56]. Reconciliation candidate: parallelism belongs below the human, in background workers reviewed in batch, not in multiple foreground conversations competing for one attention budget. His software factory operationalizes it: a manager agent splits a release into issues, workers run plan-implement-validate autonomously, the human reviews the output once in staging [f02 11:57]. He concedes some people will end up juggling multiple factories anyway [f02 15:23].

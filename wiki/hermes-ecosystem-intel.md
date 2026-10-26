@@ -36,3 +36,7 @@ The second-brain video lands the architecture argument: persistent memory is the
 - Ship everything on an always-on box (Hetzner/Hostinger VPS or Mac mini) the day a cron job matters; sleeping laptop equals sleeping agent.
 - Use the three-move pattern as the studio's standard delivery: train, save as skill, schedule.
 - Steal the self-configuration transparency: agents should self-report model, wiring gaps, and restart-survival status on request.
+
+## 2026-10-23 update (bank ingest)
+
+Competing-surface intel. Pi Durable adds the durable/proactive layer Hermes lacks publicly: shared device state, resumable tasks, live tool swaps; still experimental pre-V1 [f02 25:32]. Counter-testimonial: Pigford found off-the-shelf agent platforms (Hermes named) "a lot of bloat I just don't need" and runs Claude Code plus Python glue on a Mac Mini [f17 12:26]. Nimrod keeps Hermes as the always-on orchestrator (voice to Matrix to Whisper to Hermes, which starts T3 threads rather than doing the work itself) [f35 11:46]. Echo (ours) ships the approval-only publishing posture: auto-prepare optional, silent posting never (f66).

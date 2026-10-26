@@ -37,3 +37,7 @@ Transparency is the open judgment call. The influencer creator argues for labeli
 - Apply hook grammar and audio law (voice 10, music 8, cut on beat) to every studio-produced video asset.
 - Label AI-generated studio content by default; treat the unpunished-deception data point as unverified, not as license.
 - Grade content on watch time, shares, and saves only; ignore like counts as vanity.
+
+## 2026-10-27 update (bank ingest)
+
+The slop question is now triangulated by three sources. Ponna: unmodified copy-paste output is the slop failure mode; customizing workflows differentiates [f05 53:35]. His positive law: your own face and voice make a channel, in his words, impossible to demonetize as AI slop, and channel momentum is the asset a slop flag resets [f05 57:03, 58:33]. Riley Brown independently calls AI-avatar content "the slop category", says HeyGen output still looks dead, and credits B-roll-heavy formats as what works [f06 56:04]. This strengthens the AI-drafts-90/human-finishes-10 resolution and weakens the niche-catalog claim that AI avatars are monetization-safe [NAB9PyN2-3E 10:36].

@@ -34,3 +34,11 @@ Distribution beats building twice over. Route sales through marketing agencies t
 - Sell the monitoring retainer at install time ("your automations will fail silently without this") as a 1-2k/month attach.
 - Run the four-leg qualification filter verbatim on every prospect; kill any deal that fails a leg.
 - Build the agency-partner channel (20% commission) before scaling direct outbound.
+
+## 2026-10-23 update (bank ingest)
+
+Two new anchors beside SOP-to-skills. Zack Kirk sells an internal business knowledge-base agent (dashboard plus WhatsApp trigger) at $20-40k priced against the replaced employee's salary [unverified] [f24 15:26]. Josh Pigford's First Index sells done-for-you SEO/AEO at a flat $1,000/month across ~30 clients, claiming ~$570K ARR in month one [unverified] [f17 0:00]. Both repeat the wiki law from the buy side: clients "don't give a rip that AI's involved"; they buy the solved outcome [f17 21:27].
+
+## 2026-10-27 update (bank ingest)
+
+Two operational additions. First, spend rails: enforce agent budgets at the card, not in the prompt; virtual cards carry the limits themselves plus a webhook on every charge [f02 3:47, 3:31]. That is a standardizable artifact for every client install. Second, a delivery-model claim worth selling against: the software-factory pattern (grilled intent, autonomous issue loop, batch review) is predicted to become the standard way software is built within a year or two [f02 11:57], which makes the studio's own harness the product demo. Vendor-economics caution travels with this corpus: VideoExpress one-time pricing and its 600% GPU-cost claim are unverified vendor assertions [f05 39:07, 38:55] [unverified].
