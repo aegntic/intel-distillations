@@ -1,3 +1,5 @@
 {"id": "2026-09-01", "date": "2026-09-01", "kind": "harvest", "dir": "/home/ae/Projects/intel-distillations/harvest-2026-09-01", "corpus": "condensed", "files": 26, "lines": 744, "ingested": "2026-10-27T08:13:50"}
 {"id": "2026-10-23", "date": "2026-10-23", "kind": "harvest", "dir": "/home/ae/harvests/2026-10-23", "corpus": "distilled", "files": 37, "lines": 1906, "ingested": "2026-10-27T08:14:26"}
 {"id": "2026-10-27", "date": "2026-10-27", "kind": "harvest", "dir": "/home/ae/harvests/2026-10-27-tabs2harvest", "corpus": "distilled", "files": 11, "lines": 499, "ingested": "2026-10-27T08:14:26"}
+{"id": "2026-11-16", "date": "2026-11-16", "kind": "harvest", "dir": "/home/ae/harvests/2026-11-16-tab-harvest-target", "corpus": "distilled", "files": 1, "lines": 31, "ingested": "2026-11-23T09:02:34"}
+{"id": "2026-11-18", "date": "2026-11-18", "kind": "harvest", "dir": "/home/ae/harvests/20261118_121430", "corpus": "distilled", "files": 50, "lines": 1455, "ingested": "2026-11-23T09:02:34"}
