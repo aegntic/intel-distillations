@@ -23,3 +23,7 @@ The defensive baseline is enforced at the platform, not in the prompt: scoped ex
 - List every credential an agent can touch; replace with read-only DB users, scoped expiring keys, or a local MCP proxy [f35 7:51][f35 9:10].
 - Inventory PHP and legacy surfaces; apply the php.net 2026-10-21 advisory and Cloudflare WAF guidance [f00 16:48].
 - Issue one capped virtual card per deployed agent and wire the charge webhook [f12 3:14].
+
+## 2026-11-18 update (bank ingest)
+
+A named reference architecture arrives from our own Nod fork: policy lives in the server, not the prompt; vault injects credentials so secrets never reach model context; page and app content reaches the model marked as data, not instructions; self-published evals claim 98% tasks finished and 0 unsafe actions in 678 runs [unverified, self-published] (f13). Browser agents institutionalize guarded autonomy: Claude in Chrome runs per-site ask-before-act, and even auto-approve routes each consequential action through a separate safety check (f36), with onboarding that teaches the injection taxonomy outright (f48). Model access splits the market: Mythos 5.2 gated to vetted organizations while Opus refuses attack-analysis prompts [f59 08:19][f59 07:37]; abliterated GLM-5.3 sells at a $0.60/$1.80 per M flash tier (f22); regional gateways sell residency and zero retention (f32). Counterforce: United joined Amazon in blocking agents [f59 17:53], and merchant agent-blocking is called the biggest blocker to agent-run businesses [f59 19:42].

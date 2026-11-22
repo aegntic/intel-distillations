@@ -1,6 +1,6 @@
 # Voice and Brand Laws
 
-The packaging, persona, and trust patterns that generalize across the corpus: brand files, hook grammar, packaging consistency, and AI-transparency judgment calls. Note: the task brief expected "museum-curator" patterns here; no museum-curator content exists in the four source docs, so this file carries the persona and packaging laws that do generalize. Related: [faceless-channel-niches](faceless-channel-niches.md), [content-and-seo-ops](content-and-seo-ops.md), [creator-landscape](creator-landscape.md).
+The packaging, persona, and trust patterns that generalize across the corpus: brand files, hook grammar, packaging consistency, plus AI-transparency judgment calls. Note: the task brief expected "museum-curator" patterns here; no museum-curator content exists in the four source docs, so this file carries the persona and packaging laws that do generalize. Related: [faceless-channel-niches](faceless-channel-niches.md), [content-and-seo-ops](content-and-seo-ops.md), [creator-landscape](creator-landscape.md).
 
 ## Synthesis
 
@@ -36,8 +36,12 @@ Transparency is the open judgment call. The influencer creator argues for labeli
 - Stand up the five brand files for the studio and require every generation to read them first; convert recurring formats into skills.
 - Apply hook grammar and audio law (voice 10, music 8, cut on beat) to every studio-produced video asset.
 - Label AI-generated studio content by default; treat the unpunished-deception data point as unverified, not as license.
-- Grade content on watch time, shares, and saves only; ignore like counts as vanity.
+- Grade content on watch time plus shares and saves only; ignore like counts as vanity.
 
 ## 2026-10-27 update (bank ingest)
 
 The slop question is now triangulated by three sources. Ponna: unmodified copy-paste output is the slop failure mode; customizing workflows differentiates [f05 53:35]. His positive law: your own face and voice make a channel, in his words, impossible to demonetize as AI slop, and channel momentum is the asset a slop flag resets [f05 57:03, 58:33]. Riley Brown independently calls AI-avatar content "the slop category", says HeyGen output still looks dead, and credits B-roll-heavy formats as what works [f06 56:04]. This strengthens the AI-drafts-90/human-finishes-10 resolution and weakens the niche-catalog claim that AI avatars are monetization-safe [NAB9PyN2-3E 10:36].
+
+## 2026-11-18 update (bank ingest)
+
+Demo grammar is standardized: all seven vendor demos run the same four-beat arc of quantified pain, named product, tight feature sequence, low-friction free-trial CTA [f61 00:00][f61 01:13]; proof lands on real customer material rather than stock footage [f61 08:04]. Platform-native promotion repeats as law: a raw Stripe link in a tweet performed far below baseline engagement [f17 51:37]. Honest capability labeling works as brand voice: the studio's own 1min247 page separates building-toward targets from live features, twice captured with visible copy iteration (f21, f41).

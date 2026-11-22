@@ -46,3 +46,7 @@ Explicitly avoided: politics, royal-family news, voice-clone, and military tiers
 - Slice the valuables and country-transfer formats across spare domains: one validated format, N domains, agent-localized.
 - Quarantine politics/royals/voice-clone/military entirely away from the main AdSense; second account for anything risky.
 - Judge nothing before 15 videos; vary packaging per video to find the winner fast (15 videos, each with something different) [NAB9PyN2-3E 41:16].
+
+## 2026-11-18 update (bank ingest)
+
+Ownership beats service fees: build proprietary best-of channels in underserved verticals rather than selling clipping, because followers and sponsor value accrue to the channel owner [f56 15:15]. New [unverified] windows flagged in the X-feed slice: AI-collapsed dev barriers letting WeChat mini-games publish without filing for approval, and a sovereign Australian 220B model claim in the same feed (f09). Reach in that same capture correlated with spectacle, not signal (f09).

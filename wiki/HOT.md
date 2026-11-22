@@ -2,31 +2,34 @@
 
 The hot cache: what is true right now, the 5 highest-leverage cheapest actions, and what moved since the last distillation. Query this file first; it is regenerated on every wiki refresh. Entry point: [INDEX](INDEX.md).
 
-## Current state (2026-10-27)
+## Current state (2026-11-18 ingest, swept 2026-11-23)
 
-The corpus is now an ongoing bank: 33 videos from the 2026-09-01 wiki plus 21 videos and 14 documents from the 2026-10-23 ingest plus 10 sources from the 2026-10-27 ingest, all citation-verified mechanically (142 timestamped citations checked against source text by `bank.py verify`). Three new concept clusters landed: [proactive-and-durable-agents](proactive-and-durable-agents.md) (durable agent plus trigger inside a sandbox [f13 3:04]), [agent-security-baseline](agent-security-baseline.md) (AI phishing at expert efficacy for ~4 cents/email; voice-print authentication defeated; prompt limits are not guardrails [f15 10:22, 3:24; f12 3:14]), and [focus-and-attention-economics](focus-and-attention-economics.md) (cognitive bandwidth does not parallelize; batch check-ins over session juggling [f02 1:42, 13:10]). Pricing anchors widened: a KB-agent offer at 20-40k against the replaced employee's salary [unverified] [f24 15:26] and a flat 1,000/month done-for-you model at ~30 clients [unverified] [f17 0:00]. The session-topology contradiction (fan-out vs one primary session) has a candidate reconciliation, one human session with background workers reviewed in batch, and it is untested. The money theses live in [bank/moves](../bank/moves/immediate.md): 12 moves proposed, each with mechanism, sources, falsifier, and status.
+The bank carries 5 harvests (2026-09-01, 10-23, 10-27, 11-16, 11-18); this sweep ingested two and synthesized both. The 11-16 harvest is a single title-only n8n open-source claim, unread twice (no transcript either capture). The 11-18 harvest (50 files, 139 verified citations) lands three clusters: the money cluster (an audit-magnet funnel where a $2,000 audit costs ~$5 in API spend [f17 07:34], vertical packaging at ~$5K/month [f56 10:34], and the raw counterexample of 191 listings earning $4.55 [f27 21:23]); trust architecture (policy-in-server with vault-injected secrets on our own Nod fork (f13), guarded autonomy in Claude in Chrome (f36), approval-gated purchasing [f59 14:56]); and the model-access split (vetted Mythos 5.2 [f59 08:19] versus commercially served abliterated GLM-5.3 (f22), with regional gateways selling AU residency (f32)). Hermes received its strongest third-party validation: best agent harness, open source, model-agnostic [f03 10:46, 11:08]. The move log holds 18 moves (was 12), 6 new from this ingest, each with mechanism, falsifier, effort, and first step.
 
 ## Top 5 actionable items, ranked by leverage x cheapness
 
-1. **Run the next forge release through the software-factory loop with fan-out evals.** Grill intent, split issues, plan-implement-validate autonomously, one batch review in staging [f02 11:57, 10:24]; one brief fanned across three models, cherry-picked [f64 15:34]. The harness becomes the client demo. Log ids mv-007, mv-006.
-2. **Adopt batch check-ins and backfill three playbook repos.** One daily review slot per agent stream, no mid-day peeking for a week [f02 13:10]; SOP-to-skills, monitoring, and distillation become forkable repos with evals [f05 3:08, 42:45]. Log ids mv-010, mv-009.
-3. **Deposit-test the KB-agent offer beside SOP-to-skills.** Flagship stays (10-25k plus 1-2k/month [GkHwnQdoDpM 35:43]); add the KB-agent one-pager plus a 15-minute mock-data demo and book 5 calls from the existing network. The 20-40k anchor is [unverified]; deposits decide [f24 15:26]. Log id mv-004.
-4. **Run the classifier-gating A/B on one cron loop.** Jev-style routing with a 2-week cost comparison before any rollout [f28 12:34]. Log id mv-002.
-5. **Security posture after the 2026-10-27 review: already adequate for the video pipeline.** The harvest loop is public-data-in/markdown-out with no PII by rule; the box runs no PHP and no web servers, so mv-001 closed not-applicable per its own falsifier; spend rails (mv-008) wait for the first spend-holding agent. Remaining hygiene: confirm distiller subagents hold no push rights and the verify gate stays blocking on the sweep's auto-commit [mv-003, re-scoped].
+1. **Ship llms.txt plus key-facts blocks on every studio surface** [mv-016]. Hours; AEO is the wedge market this corpus sells into three separate ways [f17 01:19], and our own surfaces become the live demo for the audit offer. Falsifier: probe mentions flat across 60 days.
+2. **Add the cross-family verification clause to the forge ship path** [mv-013, pairs with mv-006/mv-007]. Score above 9 to merge, reviewers from different families, hard round caps [f01 12:29, 21:42]; runs on subscriptions already held, so marginal API cost is zero.
+3. **Stand up the SOP-capture bot over the studio fleet** [mv-014]. The flagship offer's live demo plus process hygiene; the reference audit found only 4 of 12 SOPs correct [f17 30:56].
+4. **Pilot the audit-magnet funnel** [mv-015]. Ten free audits asking only URL and email, refund-backed $100 tier, $2K sprint behind it [f17 25:38, 27:07]; the shape is validated three times in-corpus.
+5. **Queue the vertical local-SEO pilot decision** [mv-017]. One trade, one metro, 3-6 pages per month with verified indexing [f54 12:01]; pick from the existing network this month so the 90-day clock starts.
 
-**Carried from 09-02, still open:** council-of-skills personas [iTY8Q449YNQ 2:50], the three-creator wave [source-roster], and the one-documentary-domain proof [NAB9PyN2-3E 57:21]. Nothing has acted on them yet; they stay queued, not deleted.
+**Carried from earlier, still open:** KB-agent deposit tests [mv-004], batch check-ins [mv-010], playbook backfill [mv-009], classifier-gating A/B [mv-002], council-of-skills personas [iTY8Q449YNQ 2:50], three-creator wave [source-roster]. Queued, not deleted.
 
-## What changed since last distillation (2026-09-02 bank refresh)
+## What changed since last distillation (2026-10-27)
 
-- The wiki became an ongoing bank: append-only ledger, dated synthesis drafts under `bank/harvests/`, and a move log with falsifiers and status lifecycle. Contract: `bank/SCHEMA.md`. The 2026-10-23 ingest brought 109 verified citations across 35 files; the 2026-10-27 ingest brought 33 across 10.
-- Three new concept files: [proactive-and-durable-agents](proactive-and-durable-agents.md), [agent-security-baseline](agent-security-baseline.md), [focus-and-attention-economics](focus-and-attention-economics.md). Fourteen concept files gained dated update blocks from the two new harvests.
-- Eight contradictions recorded, both sides cited, including parallelism vs the focus tax [v12 21:47 vs f12 9:20], a 10x pricing-anchor spread [GkHwnQdoDpM 35:43 vs f24 15:26 vs f17 1:02], and harness build-vs-buy [v04 10:27 vs f17 12:26]. Two older positions revised: avatar-safety now reads "the slop category" [f06 56:04], and 80%-autonomy claims are scoped as task-type-dependent [f13 0:45 vs f02 5:21].
-- New this cycle and verified nowhere: classifier gating at 18 cents per 4,451 routings [f28 12:34], $437/month cache-warming estimate [f28 29:14], $570K ARR [f17 0:00], the 20-40k KB anchor [f24 15:26]. All [unverified] until our own measurements or deposits exist.
+- Two harvests ingested: 2026-11-16 (1 file, title-only) and 2026-11-18 (50 files, 1,455 lines, 139 citations verified). Eleven concept files gained 2026-11-18 update blocks; six moves added (mv-013 through mv-018); immediate and strategic views regenerated.
+- The Pigford ARR figure now carries in-source skepticism ($474K retold by hosts who call the math impossible [f56 00:47]); all ARR/MRR variants in the bank stay [unverified].
+- New contradiction pair recorded: approval-gated agent purchasing shipped [f59 14:56] the same season United joined Amazon in blocking agents [f59 17:53].
+- Data-quality note: the 11-18 tab-16 transcript is a mis-capture (a financial-audit episode, not the titled Fable 5.2 video), so Fable 5.2 coverage in this corpus is void pending re-harvest.
+- Tooling: bank.py now derives harvest dates from compact dir names (20261118_121430 -> 2026-11-18), so ledger dates match actual harvest times.
 
 ## Open questions
 
-- Does classifier gating survive our workloads once misroute rework is counted [f28 12:34]? Needs the 2-week A/B [mv-002].
-- Is the KB-agent 20-40k anchor reachable for our buyer pool, or does the SOP wedge at 10-25k convert better? Deposit tests decide [mv-004].
-- Does near-instant model response actually collapse multi-session juggling into one primary session [f02 14:05], or do four-screen factory multi-tables win [f06 1:18:08]? Task-type split is the working hypothesis.
-- Is Meta's MCI pause permanent or a cooling-off period [f08 8:40]? What is the real false-block rate of hard card caps on our own fleet [f02 3:47]?
-- Carried unresolved from 09-02: does the AI-transparency label cost nothing [gXaF4t4B4ss 16:30]; are Herk's study figures accurate as stated [source-herk]; which tier-2 creator converts first; does the 120-domain grid hold ranking discipline [v21 4:44 vs 11:26]; can a verification-gated pipeline clear sleep-niche RPM of $30-40 [unverified] [NAB9PyN2-3E 1:12:48]?
+- Does the audit-magnet funnel convert at the sprint tier, or stall at the refund guarantee [f17 27:07]? mv-015 tests within a month.
+- Does a verification clause pay for itself on flat-rate plans once weekly limits bind in 2-3 days [f01 21:09][f59 09:02]?
+- Does the 50-80 keyword-utilization doctrine hold on our own pilot pages through index updates [f54 21:30], or does the grounded-content stance win on durability?
+- Agent purchasing versus merchant blocking [f59 14:56 vs 17:53]: which side wins over 12 months, and does the split create a manual-fallback services niche?
+- What did n8n actually open-source? Title-only twice (2026-11-16 f02; 2026-11-18 f10); re-harvest before any build-vs-buy call.
+- Do the AU signals (sovereign in-country model claim, AU-residency gateway at $4.84/$24.20 per M for Opus 5.5) add up to a local-differentiator offer (f09, f32)? Both [unverified]; watch only.
+- Carried: KB-agent 20-40k anchor deposits [mv-004]; classifier gating under our workloads [mv-002]; session-topology reconciliation (one primary session plus batched background review); Meta MCI pause; AI-transparency label cost.

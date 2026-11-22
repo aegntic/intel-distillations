@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""intel-distillations knowledge bank — ingest, verify, stats.
+"""intel-distillations knowledge bank - ingest, verify, stats.
 
 The bank is the ongoing layer on top of the static wiki: every tab harvest
 gets ingested into an append-only ledger, distilled into a dated draft under
@@ -71,17 +71,23 @@ def cmd_ingest(args):
     hdir = os.path.abspath(args.dir)
     if not os.path.isdir(hdir):
         sys.exit(f"no such harvest dir: {hdir}")
-    m = re.search(r"(\d{4}-\d{2}-\d{2})", hdir)
-    date = args.date or (m.group(1) if m else dt.date.today().isoformat())
+    date = args.date
+    if not date:
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", hdir) or re.search(
+            r"(\d{4})(\d{2})(\d{2})", hdir
+        )
+        date = "-".join(m.groups()) if m and m.lastindex == 3 else (
+            m.group(1) if m else dt.date.today().isoformat()
+        )
 
     cdir = corpus_dir(hdir)
     os.makedirs(HARVESTS, exist_ok=True)
     draft = os.path.join(HARVESTS, f"{date}.md")
     if not os.path.exists(draft):
         with open(draft, "w", encoding="utf-8") as f:
-            f.write(f"# Harvest {date} — draft pending\n\n"
+            f.write(f"# Harvest {date} - draft pending\n\n"
                     f"Ingested from `{hdir}`.\n\n"
-                    f"STATUS: mechanical ingest only. Synthesis pending — follow\n"
+                    f"STATUS: mechanical ingest only. Synthesis pending - follow\n"
                     f"bank/SCHEMA.md section 3 (draft contract), then re-run\n"
                     f"`bank.py verify`.\n")
 
@@ -109,9 +115,9 @@ def cmd_ingest(args):
     draft = os.path.join(HARVESTS, f"{date}.md")
     if not os.path.exists(draft):
         with open(draft, "w", encoding="utf-8") as f:
-            f.write(f"# Harvest {date} — draft pending\n\n"
+            f.write(f"# Harvest {date} - draft pending\n\n"
                     f"Ingested {len(files)} files ({lines} lines) from `{hdir}`.\n\n"
-                    f"STATUS: mechanical ingest only. Synthesis pending — follow\n"
+                    f"STATUS: mechanical ingest only. Synthesis pending - follow\n"
                     f"bank/SCHEMA.md section 3 (draft contract), then re-run\n"
                     f"`bank.py verify`.\n")
 

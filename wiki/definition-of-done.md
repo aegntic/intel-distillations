@@ -41,3 +41,7 @@ New machine-checkable gates from the tooling cluster. TDD with agents: the agent
 ## 2026-10-27 update (bank ingest)
 
 Independent convergence on the finish-line thesis. Nate B Jones defines done as someone benefiting, not a working prototype, and says engineers who stop at "it shipped" are wrong: own whether the software is useful [f03 8:24, 20:02]. His rough-first-version method inverts planning: an agent's imperfect draft (deals with 14 days of no activity) surfaces requirements the buyer could not state up front [f03 7:42]. Cole Medin explains why the finish line must live outside the model: /goal alone cannot encode how you validate, so rules, skills, and evals are what let an agent run for a day or more [f02 10:52, 10:13].
+
+## 2026-11-18 update (bank ingest)
+
+Done becomes a numeric bar in a clause: cross-family reviewers score the change 1-10 and the agent may not return until the bar clears; scored rounds lifted changes from 7.4 to 8.9 average [f01 12:29], and of 144 reviewer scores only two changes finished below 7 [f01 13:21]. Reviewers must run the code on the machine it was written on, not diff-review [f01 16:42]. Round caps with tap-out instructions are part of the definition: one uncapped run ballooned a ~1,000-line PR past 20,000 lines [f01 21:42]. Outcome stat to beat: about 80% of thread-opened PRs merge as-is [f01 26:35]. Same-family reviewers add little diversity [f01 06:22].

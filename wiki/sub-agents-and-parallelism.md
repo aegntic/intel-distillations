@@ -41,3 +41,7 @@ The 10-23 harvest upgrades parallelism from isolated sessions to durable teams. 
 ## 2026-10-27 update (bank ingest)
 
 New tension, not a replacement. The 09-01 file prescribes fanning work out one sub-agent per deliverable [v09 10:15]; Cole Medin says the human should run one primary session and stop juggling [f02 13:56]. Reconciliation candidate: parallelism belongs below the human, in background workers reviewed in batch, not in multiple foreground conversations competing for one attention budget. His software factory operationalizes it: a manager agent splits a release into issues, workers run plan-implement-validate autonomously, the human reviews the output once in staging [f02 11:57]. He concedes some people will end up juggling multiple factories anyway [f02 15:23].
+
+## 2026-11-18 update (bank ingest)
+
+The per-function pattern, triple-sourced this session: each business function gets a persistent bot with an explicit identity, plus a dedicated SOP bot that checks in with every bot daily; its first audit found only 4 of 12 SOPs fully correct, the decay rate of unwritten process [f17 28:01][f17 30:56]. Specialist chains (leads, production, outreach) beat a single generalist at the same job set [f29 01:34]. On shared infrastructure, one computer with a screen per bot lets agents query each other directly [f03 33:11]; the one-prompt platform build caps meaningful identities at 4-5 with everything else as threads (f03).

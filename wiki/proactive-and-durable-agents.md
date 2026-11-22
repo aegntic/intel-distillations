@@ -30,3 +30,7 @@ The maturity metric is moving work from human-in-loop to near-loop to out-of-loo
 - Stand up the signal-curator demo on the always-on box: cron sweep, dedupe, Jev-style rank, 7 cards per tick [f13 16:53][f13 14:42].
 - Wrap the nightly digest cron's classification behind a Jev-style JSON classifier and log both costs before fleet-wide rollout [f28 12:34].
 - Track the KPI weekly: count agents doing useful work out-of-loop, not sessions open [f02 34:10].
+
+## 2026-11-18 update (bank ingest)
+
+The standing-job pattern gets a demand-side catalog: a weekly money-finder surfaced 20-year-old unclaimed property and a $1,000 bank bonus [f57 08:48][f57 09:06]; about $4,000 of receipts hit Concur inside 48 hours [f57 07:04]; the host's law is give the agent responsibilities, not questions [f57 01:36]; every high-trust case runs draft, approve, send [f57 05:49]. Fleet-side, the SOP bot is the process-capture trigger: a daily check-in that converts running process into written SOPs before it rots [f17 28:01][f17 30:56]. Mainstream tooling now ships triggers natively: Claude Code scheduled tasks plus remote control and multi-tab browser workflows (f11, f36).

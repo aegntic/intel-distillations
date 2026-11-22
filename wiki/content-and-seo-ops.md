@@ -40,3 +40,7 @@ Monetization must precede acquisition: 46,000 downloads with zero monetization c
 ## 2026-10-23 update (bank ingest)
 
 AEO gets a measurement loop: script real probe queries at ChatGPT/LLMs, log whether the client is mentioned, correct wrong facts so models repeat correct data [f17 22:48][f17 5:41]. Unit economics: DataForSEO runs ~30 clients at ~$100/week versus thousands for retail suites [f17 15:36]. New verdict to record: scaled Reddit manipulation is "mostly shady... short-term play that will burn you," equated to faking community [f17 6:06]. The Jev news-desk is also a working template for a studio signal curator: cron sweep, dedupe, rank, feedback flywheel [f13 16:53][f13 14:42].
+
+## 2026-11-18 update (bank ingest)
+
+The 7-step local-services system, mechanics: grid scans first [f54 03:38]; 30-50 location pages per metro derived from competitor counts [f54 10:21]; AI-generated 300-page dumps largely fail to index, so pages roll out 3-6 per month with indexing verified before continuing [f54 12:01]; 50-80 keyword uses per page [f54 21:30]; results judged on 2-4 week windows [f54 33:15]. The $934K/90-day and 80%-map-pack numbers are vendor-stated [unverified] [f54 00:00][f54 01:30]. AEO is now a named service category, being the answer when people ask ChatGPT, Claude, or Grok [f17 01:19], with open-source tooling appearing [f56 00:14]. Promotion stays platform-native: raw payment links in posts kill engagement [f17 51:37].

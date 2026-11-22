@@ -42,3 +42,7 @@ Intake discipline upgrades. Score information hype/fact/signal before acting: a 
 ## 2026-10-27 update (bank ingest)
 
 The rough first version is a validation tactic, not just a build tactic: build the ugly working artifact to extract requirements a stakeholder could not articulate, then let them react to it [f03 7:42, 8:24]. It pairs with a scope control: with identical tools, one person starts 15 projects in a month and quits each when work gets awkward, the other stays on one customer problem; sustained focus is underweighted in AI conversations [f03 11:44, 9:39]. Anti-goal for the council checklist: AI can make distraction look productive, many prototypes and three plans by 5pm, none far enough to matter [f03 12:31].
+
+## 2026-11-18 update (bank ingest)
+
+The bank's rawest datapoint: an agent-run Etsy shop under a no-self-promotion rule produced 191 listings, 48 visits, 2 orders, $4.55 in 10 days; production is not demand, trust signals and traffic are the bottleneck [f27 21:23], and the operator's postmortem was counting listings as the scoreboard [f27 22:08]. Willingness-to-pay stays tiny and refund-backed: charge $100 with a no-questions refund before building infrastructure [f17 25:38]. Guru programs get a stake check: the $1,995 program's tool stack is one the seller is invested in [f29 01:00]. Product target from the kill-fast doctrine: 100 people who love it, with 7 of 8 products killed on the way [f26 12:38][f26 10:32]. The $474K ARR retelling carries in-source doubt [f56 00:47]; keep [unverified].
