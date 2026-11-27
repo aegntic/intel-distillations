@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover-16x9.jpg" alt="intel-distillations — Curated intelligence distillations: video harvests, creator rosters, agent-market analyses. Companion data to cognitive-os." width="100%" />
+</p>
+
 # intel-distillations
 
 Agent-economy advice lives in hour-long YouTube videos. The useful parts are
